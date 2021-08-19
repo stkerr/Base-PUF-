@@ -1,0 +1,20 @@
+NET "rx" LOC = "E16" | IOSTANDARD = LVCMOS33;
+NET "tx" LOC = "F15" | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW;
+#NET "reset" LOC = "T16";
+NET "clk" LOC = "E12" | IOSTANDARD = LVCMOS33; # 50 MHz clock
+
+#NET "led<7>" LOC = "W21" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<6>" LOC = "Y22" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<5>" LOC = "V20" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<4>" LOC = "V19" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<3>" LOC = "U19" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<2>" LOC = "U20" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<1>" LOC = "T19" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+#NET "led<0>" LOC = "R20" ;#| IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+
+NET "led<7>" LOC = "W21" ; NET "led<6>" LOC = "Y22" ; NET "led<5>" LOC = "V20" ; NET "led<4>" LOC = "V19" ; NET "led<3>" LOC = "U19" ; NET "led<2>" LOC = "U20" ; NET "led<1>" LOC = "T19"; NET "led<0>" LOC = "R20" ;
+
+NET "slideSwitch2" LOC = "U8";
+
+NET "pushButton1" LOC = "U15";
+NET "startSerial" LOC = "T16";
